@@ -1,0 +1,63 @@
+.conteiner {
+    padding: 10px;
+    /* border: 2px solid ; */
+    font-size: 20px;}
+p {
+    padding-left: 7px;}
+.description {
+    width: 18%;
+    float: left;
+    margin-top: 10px;
+    padding-left: 9px;}
+
+.description1 {
+    padding-left: 9px;
+}
+
+label {
+    display: inline-block;
+}
+.textpeopl {
+    float: left;
+    width: 79%;
+    margin: 6px;
+    padding-left: 5px;
+}
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(186, 180, 180);
+    box-sizing: border-box;
+    resize: vertical;
+}
+select {
+    width: 70%;
+}
+input[type=submit] {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid rgb(181, 175, 175);
+    border-radius: 4px;
+}
+.texuser {
+    width: 99%;
+    padding-left: 10px;
+}
+@media screen and (max-width: 600px) {
+
+    .description,
+    .textpeopl,
+    input[type=text],
+    select {
+        width: 99%;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 600px) {
+    input[type=radio] {
+        width: 40%;
+        padding-left: 5px;
+
+    }
+}
